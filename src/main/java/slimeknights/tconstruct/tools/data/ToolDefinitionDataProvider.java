@@ -368,24 +368,23 @@ public class ToolDefinitionDataProvider extends AbstractToolDefinitionDataProvid
       .statEach(ToolStats.ARMOR, 2, 5, 7, 2)
       .statAll(ToolStats.ARMOR_TOUGHNESS, 2)
       .statAll(ToolStats.KNOCKBACK_RESISTANCE, 0.1f)
-      .startingSlots(SlotType.UPGRADE, 1)
+      .startingSlots(SlotType.UPGRADE, 2)
       .startingSlots(SlotType.DEFENSE, 4)
       .startingSlots(SlotType.ABILITY, 1);
 
     // slime suit
     defineArmor(ArmorDefinitions.SLIMESUIT)
       .statEach(ToolStats.DURABILITY, 546, 630, 672, 362)
-      .statAll(ToolStats.ARMOR, 0)
+      .statAll(ToolStats.ARMOR, 1)
       .startingSlots(SlotType.UPGRADE, 5)
-      .startingSlots(SlotType.DEFENSE, 0)
-      .startingSlots(SlotType.ABILITY, 1, 1, 1, 1)
+      .startingSlots(SlotType.DEFENSE, 1)
+      .startingSlots(SlotType.ABILITY, 2, 1, 1, 1)
       .part(ArmorSlotType.HELMET, SkullStats.ID, 1)
       .trait(ModifierIds.overslimeFriend)
       .trait(ArmorSlotType.CHESTPLATE, ModifierIds.wings)
       .trait(ArmorSlotType.LEGGINGS, TinkerModifiers.pockets, 1)
       .trait(ArmorSlotType.LEGGINGS, TinkerModifiers.shulking, 1)
-      .trait(ArmorSlotType.BOOTS, TinkerModifiers.bouncy)
-      .trait(ArmorSlotType.BOOTS, TinkerModifiers.leaping, 1);
+      .trait(ArmorSlotType.BOOTS, TinkerModifiers.bouncy);
   }
 
   @Override
