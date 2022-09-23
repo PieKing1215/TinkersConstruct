@@ -368,7 +368,7 @@ public class ToolDefinitionDataProvider extends AbstractToolDefinitionDataProvid
       .statEach(ToolStats.ARMOR, 2, 5, 7, 2)
       .statAll(ToolStats.ARMOR_TOUGHNESS, 2)
       .statAll(ToolStats.KNOCKBACK_RESISTANCE, 0.1f)
-      .startingSlots(SlotType.UPGRADE, 2)
+      .startingSlots(SlotType.UPGRADE, 1)
       .startingSlots(SlotType.DEFENSE, 4)
       .startingSlots(SlotType.ABILITY, 1);
 
