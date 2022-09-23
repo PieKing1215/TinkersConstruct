@@ -7,12 +7,12 @@
   "stats": {
     "base": {
       "tconstruct:durability": 362.0,
-      "tconstruct:armor": 0.0
+      "tconstruct:armor": 1.0
     }
   },
   "slots": {
     "upgrades": 5,
-    "defense": 0,
+    "defense": 1,
     "abilities": 1
   },
   "traits": [
