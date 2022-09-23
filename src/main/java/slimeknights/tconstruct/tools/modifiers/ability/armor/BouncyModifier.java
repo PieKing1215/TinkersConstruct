@@ -24,7 +24,7 @@ public class BouncyModifier extends TotalArmorLevelModifier {
   private static void onFall(FallEvent event) {
     LivingEntity living = (LivingEntity) event.getEntity();
     // using fall distance as the event distance could be reduced by jump boost
-    if (living == null || (living.getDeltaMovement().y > -0.4 && living.fallDistance < 5)) {
+    if (living == null || (living.getDeltaMovement().y > -0.8 && living.fallDistance < 8)) {
       return;
     }
     // can the entity bounce?
