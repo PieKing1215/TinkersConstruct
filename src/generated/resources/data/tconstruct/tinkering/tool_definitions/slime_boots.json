@@ -2,13 +2,13 @@
   "stats": {
     "base": {
       "tconstruct:durability": 546.0,
-      "tconstruct:armor": 0.0
+      "tconstruct:armor": 1.0
     }
   },
   "slots": {
     "upgrades": 5,
-    "defense": 0,
-    "abilities": 1
+    "defense": 1,
+    "abilities": 2
   },
   "traits": [
     {
@@ -17,10 +17,6 @@
     },
     {
       "name": "tconstruct:bouncy",
-      "level": 1
-    },
-    {
-      "name": "tconstruct:leaping",
       "level": 1
     }
   ]
