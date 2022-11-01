@@ -15,6 +15,8 @@ public class ModifierIds {
   public static final ModifierId resurrected = id("resurrected");
   public static final ModifierId gilded      = id("gilded");
   public static final ModifierId draconic    = id("draconic");
+  public static final ModifierId sweetened   = id("sweetened");
+  public static final ModifierId reformed    = id("reformed");
 
   // tier upgrades
   public static final ModifierId emerald   = id("emerald");
