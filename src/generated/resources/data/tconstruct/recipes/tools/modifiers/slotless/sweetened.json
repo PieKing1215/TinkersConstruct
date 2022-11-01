@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "create:sweet_roll"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "result": {
+    "name": "tconstruct:sweetened",
+    "level": 1
+  },
+  "max_level": 1
+}
