@@ -58,6 +58,8 @@ public class ModifierProvider extends AbstractModifierProvider {
     addModifier(ModifierIds.harmonious,  ExtraModifier.builder(SlotType.UPGRADE).build());
     addModifier(ModifierIds.resurrected, ExtraModifier.builder(SlotType.UPGRADE).build());
     addModifier(ModifierIds.gilded,      ExtraModifier.builder(SlotType.UPGRADE).slotsPerLevel(2).display(ModifierLevelDisplay.DEFAULT).build());
+    addModifier(ModifierIds.sweetened,   ExtraModifier.builder(SlotType.UPGRADE).build());
+    addModifier(ModifierIds.reformed,    ExtraModifier.builder(SlotType.UPGRADE).build());
     addModifier(ModifierIds.draconic,    ExtraModifier.builder(SlotType.ABILITY).build());
     addRedirect(id("red_extra_upgrade"),   redirect(ModifierIds.writable));
     addRedirect(id("green_extra_upgrade"), redirect(ModifierIds.recapitated));
