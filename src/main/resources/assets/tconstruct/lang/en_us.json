@@ -2029,6 +2029,8 @@
   "modifier.tconstruct.draconic": "Draconic",
   "modifier.tconstruct.draconic.flavor": "Conquered the End!",
   "modifier.tconstruct.draconic.description": "The head of the great beast allows your tool a second ability slot!",
+  "modifier.tconstruct.sweetened": "Sweetened",
+  "modifier.tconstruct.reformed": "Reformed",
 
   "__comment": "Three more +1 upgrade modifiers for modpacks",
   "modifier.tconstruct.red_extra_upgrade": "Red Extra Upgrade",
